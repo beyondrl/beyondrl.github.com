@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-26T06:41:27+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">BeyondRL</title><subtitle>We are a group of students at the University of Amsterdam and we meet to discuss novel topics in reinforcement learning and artificial general intelligence. Feel free to check out our slides to keep up with recent developments in AI.</subtitle><entry><title type="html">Contrastive Learning of Structured World Models</title><link href="http://localhost:4000/jekyll/update/2020/01/26/s4.html" rel="alternate" type="text/html" title="Contrastive Learning of Structured World Models" /><published>2020-01-26T00:00:00+01:00</published><updated>2020-01-26T00:00:00+01:00</updated><id>http://localhost:4000/jekyll/update/2020/01/26/s4</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/01/26/s4.html">&lt;div class=&quot;container&quot;&gt;
+    
+  &lt;hr /&gt;
+&lt;div class=&quot;container mb-1.5&quot;&gt;
+  &lt;hr class=&quot;js-nav-fold&quot; /&gt;
+  &lt;h1 class=&quot;mt-1.5&quot;&gt;Contrastive Learning of Structured World Models&lt;/h1&gt;
+&lt;/div&gt;
+
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Attend&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;session&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;you&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;are&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;interested&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;😉&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;br /&gt;
+
+&lt;h2&gt;Summary&lt;/h2&gt;
+This recent paper by Thomas Kipf, Elise van der Pol and Max Welling highlights different cognitive architectures 'how to see' in the Reinforcement Learning setting. Their proposed C-SWM model is composed of a CNN-based objectextractor, an MLP-based object encoder, a GNN-based relational transition model, and an object-factorized contrastive loss.
+&lt;br /&gt;
+
+
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;kurutach_learning_2018&quot;&gt;Kurutach, T., Tamar, A., Yang, G., Russell, S., &amp;amp; Abbeel, P. (2018). Learning Plannable Representations with Causal InfoGAN. &lt;i&gt;ArXiv:1807.09341 [Cs, Stat]&lt;/i&gt;. http://arxiv.org/abs/1807.09341&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;chen_infogan:_2016&quot;&gt;Chen, X., Duan, Y., Houthooft, R., Schulman, J., Sutskever, I., &amp;amp; Abbeel, P. (2016). InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets. &lt;i&gt;ArXiv:1606.03657 [Cs, Stat]&lt;/i&gt;. http://arxiv.org/abs/1606.03657&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Contrastive Learning of Structured World Models</summary></entry><entry><title type="html">The Options framework</title><link href="http://localhost:4000/jekyll/update/2020/01/16/s3.html" rel="alternate" type="text/html" title="The Options framework" /><published>2020-01-16T00:00:00+01:00</published><updated>2020-01-16T00:00:00+01:00</updated><id>http://localhost:4000/jekyll/update/2020/01/16/s3</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/01/16/s3.html">&lt;div class=&quot;container&quot;&gt;
+    
+  &lt;hr /&gt;
+&lt;div class=&quot;container mb-1.5&quot;&gt;
+  &lt;hr class=&quot;js-nav-fold&quot; /&gt;
+  &lt;h1 class=&quot;mt-1.5&quot;&gt;The Options framework&lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;[ We will be releasing slides shortly ]&lt;/h2&gt;
+
+&lt;br /&gt;
+
+&lt;h2&gt;Summary&lt;/h2&gt;
+In Reinforcement Learning, the agent learns to perform some actions in an environment, which is what we call the policy. Instead of having one policy, the agent could instead have a policy over options. Every option contains its own policy and termination function. Suggested by Sutton and others as early as 2000, what is the current state of options?
+
+
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;peng_mcp_nodate&quot;&gt;Peng, X. B., Chang, M., Zhang, G., Abbeel, P., &amp;amp; Levine, S. &lt;i&gt;MCP: Learning Composable Hierarchical Control with Multiplicative Compositional Policies&lt;/i&gt;. 21.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;stolle_learning_2002&quot;&gt;Stolle, M., &amp;amp; Precup, D. (2002). Learning Options in Reinforcement Learning. &lt;i&gt;Lecture Notes in Computer Science&lt;/i&gt;, 212–223.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+
+&lt;/div&gt;</content><author><name></name></author><summary type="html">The Options framework</summary></entry><entry><title type="html">MuZero: Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model</title><link href="http://localhost:4000/jekyll/update/2019/12/09/s2.html" rel="alternate" type="text/html" title="MuZero: Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model" /><published>2019-12-09T00:00:00+01:00</published><updated>2019-12-09T00:00:00+01:00</updated><id>http://localhost:4000/jekyll/update/2019/12/09/s2</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/12/09/s2.html">&lt;div class=&quot;container&quot;&gt;
+    
+  &lt;hr /&gt;
+&lt;div class=&quot;container mb-1.5&quot;&gt;
+  &lt;hr class=&quot;js-nav-fold&quot; /&gt;
+  &lt;h1 class=&quot;mt-1.5&quot;&gt;MuZero: Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model&lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vRmPm2Oxri_Vmoa0oouqvwASF9MPyCucUsTVtO2Hc2j0tz9sBsla1m8AIkpr28EmNmD441WZ46waMLz/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;1440&quot; height=&quot;839&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+
+&lt;br /&gt;
+
+&lt;h2&gt;Summary&lt;/h2&gt;
+Take an AI that learns to play Go and other board games better than any human using only self-play, now make it work for ATARI games. That is exactly what the authors of MuZero have achieved, and in doing so they beat the state-of-the-art on many of the ATARI games. We covered their algorithm in more detail and compare it to AlphaZero.
+
+
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;schrittwieser_mastering_2019&quot;&gt;Schrittwieser, J., Antonoglou, I., Hubert, T., Simonyan, K., Sifre, L., Schmitt, S., Guez, A., Lockhart, E., Hassabis, D., Graepel, T., Lillicrap, T., &amp;amp; Silver, D. (2019). Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model. &lt;i&gt;ArXiv:1911.08265 [Cs, Stat]&lt;/i&gt;. http://arxiv.org/abs/1911.08265&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;silver_mastering_2017&quot;&gt;Silver, D., Hubert, T., Schrittwieser, J., Antonoglou, I., Lai, M., Guez, A., Lanctot, M., Sifre, L., Kumaran, D., Graepel, T., Lillicrap, T., Simonyan, K., &amp;amp; Hassabis, D. (2017). Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm. &lt;i&gt;ArXiv:1712.01815 [Cs]&lt;/i&gt;. http://arxiv.org/abs/1712.01815&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;silver_mastering_2016&quot;&gt;Silver, D., Huang, A., Maddison, C. J., Guez, A., Sifre, L., van den Driessche, G., Schrittwieser, J., Antonoglou, I., Panneershelvam, V., Lanctot, M., Dieleman, S., Grewe, D., Nham, J., Kalchbrenner, N., Sutskever, I., Lillicrap, T., Leach, M., Kavukcuoglu, K., Graepel, T., &amp;amp; Hassabis, D. (2016). Mastering the game of Go with deep neural networks and tree search. &lt;i&gt;Nature&lt;/i&gt;, &lt;i&gt;529&lt;/i&gt;(7587), 484–489. https://doi.org/10.1038/nature16961&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+
+&lt;/div&gt;</content><author><name></name></author><summary type="html">MuZero: Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model</summary></entry><entry><title type="html">Learning Plannable Representations with Causal InfoGAN</title><link href="http://localhost:4000/jekyll/update/2019/11/28/s1.html" rel="alternate" type="text/html" title="Learning Plannable Representations with Causal InfoGAN" /><published>2019-11-28T00:00:00+01:00</published><updated>2019-11-28T00:00:00+01:00</updated><id>http://localhost:4000/jekyll/update/2019/11/28/s1</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/11/28/s1.html">&lt;div class=&quot;container&quot;&gt;
+    
+  &lt;hr /&gt;
+&lt;div class=&quot;container mb-1.5&quot;&gt;
+  &lt;hr class=&quot;js-nav-fold&quot; /&gt;
+  &lt;h1 class=&quot;mt-1.5&quot;&gt;Learning Plannable Representations with Causal InfoGAN&lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vTlAkJtauEjvZsMLYpM9CdODUT7uDQmHesCOkbFIsh-xvznV7_ZgWCXtarYpv-yrvhwYaao1B8AXj7s/embed?start=false&amp;amp;loop=false&quot; frameborder=&quot;0&quot; width=&quot;1440&quot; height=&quot;839&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+
+&lt;br /&gt;
+
+&lt;h2&gt;Summary&lt;/h2&gt;
+This work by two students at UC Berkeley learns to navigate the environment without any objective function. The proposed model-based RL links observations and states in an unsupervised way, using the Infogan.
+
+
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;kurutach_learning_2018&quot;&gt;Kurutach, T., Tamar, A., Yang, G., Russell, S., &amp;amp; Abbeel, P. (2018). Learning Plannable Representations with Causal InfoGAN. &lt;i&gt;ArXiv:1807.09341 [Cs, Stat]&lt;/i&gt;. http://arxiv.org/abs/1807.09341&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;chen_infogan:_2016&quot;&gt;Chen, X., Duan, Y., Houthooft, R., Schulman, J., Sutskever, I., &amp;amp; Abbeel, P. (2016). InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets. &lt;i&gt;ArXiv:1606.03657 [Cs, Stat]&lt;/i&gt;. http://arxiv.org/abs/1606.03657&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;
+
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Learning Plannable Representations with Causal InfoGAN</summary></entry><entry><title type="html">Introduction to our reading group</title><link href="http://localhost:4000/2019/11/27/intro.html" rel="alternate" type="text/html" title="Introduction to our reading group" /><published>2019-11-27T00:00:00+01:00</published><updated>2019-11-27T00:00:00+01:00</updated><id>http://localhost:4000/2019/11/27/intro</id><content type="html" xml:base="http://localhost:4000/2019/11/27/intro.html">&lt;div class=&quot;container&quot; style=&quot;background-image: url('/assets/images/background.png');background-repeat: repeat;&quot;&gt;
+    
+  &lt;hr /&gt;
+&lt;div class=&quot;container mb-1.5&quot;&gt;
+  &lt;hr class=&quot;js-nav-fold&quot; /&gt;
+  &lt;h1 class=&quot;mt-1.5&quot;&gt;Introduction to our reading group&lt;/h1&gt;
+&lt;/div&gt;
+
+We are group of students at the University of Amsterdam and every two weeks or so we meet to discuss novel topics in artificial general intelligence and reinforcement learning.
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Introduction to our reading group</summary></entry></feed>
