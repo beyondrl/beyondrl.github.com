@@ -20,7 +20,8 @@
 
 title: BeyondRL
 email: beyondrl@protonmail.com
-description:  We are a group of students at the University of Amsterdam and we meet to discuss novel topics in reinforcement learning and artificial general intelligence. Feel free to check out our slides to keep up with recent developments in AI.
+description: >- # this means to ignore newlines until "baseurl:"
+  We are a group of students at the University of Amsterdam and we meet to discuss novel topics in reinforcement learning and artificial general intelligence. Feel free to check out our slides to keep up with recent developments in AI.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://beyondrl.org" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  beyondrl

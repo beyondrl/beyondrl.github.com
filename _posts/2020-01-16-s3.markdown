@@ -1,0 +1,29 @@
+---
+layout: default
+title:  "The Options framework"
+date:   2020-01-16
+cover: "/assets/images/Platonic_Solids_Transparent.png"
+categories: jekyll update
+summary: "In Reinforcement Learning, the agent learns to perform some actions in an environment, which is what we call the policy. Instead of having one policy, the agent could instead have a policy over options. Every option contains its own policy and termination function. Suggested by Sutton and others as early as 2000, what is the current state of options?"
+---
+<div class="container">
+    
+  <hr>
+<div class="container mb-1.5">
+  <hr class="js-nav-fold">
+  <h1 class="mt-1.5">{{page.title}}</h1>
+</div>
+
+<h2>[ We will be releasing slides shortly ]</h2>
+
+<br>
+
+<h2>Summary</h2>
+{{ page.summary }}
+
+
+<h2>References</h2>
+{% bibliography --file s3references %}
+
+</div>
+
