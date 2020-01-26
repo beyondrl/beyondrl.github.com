@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="/assets/css/nicetheme.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta property="og:site_name" content="BeyondRL Reading Group">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Beyond Reinforcement Learning Reading Group">
+    <meta property="og:description" content="BeyondRL is the reading group dedicated to topics in reinforcement learning and safe artificial general intelligence.">
+    <meta property="og:url" content="https://www.beyondrl.org/">
+</head>
+
+<body>
+    <main>
+        <header class="header">
+            {% include navigation.html %}
+        </header>
+        {{ content }}
+    </main>
+    <footer>
+        {% include footer.html %}
+    </footer>
+</body>
+
+</html>

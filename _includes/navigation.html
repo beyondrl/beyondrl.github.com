@@ -1,0 +1,68 @@
+<nav class="nav js-nav" style="position: absolute; top: 16.6625px;">
+  <div class="container">
+    <div class="nav-row row d-flex justify-content-between align-items-center">
+      <div class="col-2">
+        Beyond Reinforcement Learning
+      </div>
+      <div class="col" hidden="">
+        
+      </div>
+      <div class="col-auto">
+        <ul class="nav-items d-none d-desktop-flex justify-content-end small-caps">
+            {% for item in site.data.navigation %}
+            <li class="nav-item">
+              <a class="fade" href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+                {{ item.name }}
+              </a>
+            </li>
+            {% endfor %}
+        </ul>
+        <button class="nav-toggle nav-toggle--open js-mobile-nav-open fade d-desktop-none"><svg id="mobile-nav-open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22,13H2a1,1,0,0,1,0-2H22a1,1,0,0,1,0,2Z"></path><path d="M22,6H2A1,1,0,0,1,2,4H22a1,1,0,0,1,0,2Z"></path><path d="M22,20H2a1,1,0,0,1,0-2H22a1,1,0,0,1,0,2Z"></path></svg></button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<nav class="nav" aria-hidden="true" style="visibility: hidden;"></nav>
+<nav class="mobile-nav js-mobile-nav text-left">
+  <div class="container">
+    <div class="nav-row row d-flex justify-content-between align-items-center">
+      <div class="col-2">
+      </div>
+      <div class="col-auto">
+        <button class="nav-toggle nav-toggle--close js-mobile-nav-close"><svg id="mobile-nav-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path id="Glyph" d="M19.77,5.63,13.41,12l6.36,6.37a1,1,0,0,1-1.41,1.41L12,13.41,5.63,19.77a1,1,0,0,1-1.44-1.39l0,0L10.58,12,4.21,5.63a1,1,0,0,1,0-1.42,1,1,0,0,1,1.41,0l0,0L12,10.58l6.37-6.37a1,1,0,0,1,1.41,0A1,1,0,0,1,19.77,5.63Z"></path></svg></button>
+      </div>
+    </div>
+  </div>
+  <div class="container font-large">
+    <ul class="mt-0.25 small-caps">
+      {% for item in site.data.navigation %}
+      <li class="nav-item">
+        <a class="fade d-block py-0.75" href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+          {{ item.name }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
+
+<script>
+var navmenu = document.getElementsByClassName("js-mobile-nav")[0];
+document.getElementsByClassName("nav-toggle--open")[0].addEventListener('click', function(c) {
+  /*Open*/
+  navmenu.style.visibility = 'visible';
+  navmenu.style.opacity = 1;
+  navmenu.style.display = 'block';
+  // body.classList.add("is-mobile-nav-open")
+});
+document.getElementsByClassName("nav-toggle--close")[0].addEventListener('click', function(c) {
+  /*Open*/
+  navmenu.style.visibility = 'hidden';
+  navmenu.style.opacity = 0;
+  navmenu.style.display = 'none';
+  // body.classList.remove("is-mobile-nav-open")
+});
+
+
+</script>

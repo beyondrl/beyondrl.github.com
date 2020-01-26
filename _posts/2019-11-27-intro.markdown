@@ -1,0 +1,16 @@
+---
+layout: default
+title:  "Introduction to our reading group"
+date:   2019-11-27
+cover: "/assets/images/introduction_small.jpg"
+---
+<div class="container" style="background-image: url('/assets/images/background.png');background-repeat: repeat;">
+    
+  <hr>
+<div class="container mb-1.5">
+  <hr class="js-nav-fold">
+  <h1 class="mt-1.5">{{page.title}}</h1>
+</div>
+
+We are group of students at the University of Amsterdam and every two weeks or so we meet to discuss novel topics in artificial general intelligence and reinforcement learning.
+</div>
