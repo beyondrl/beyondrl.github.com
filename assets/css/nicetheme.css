@@ -2073,6 +2073,21 @@ mark.wobble {
     }
 }
 
+@media (min-width: 720px) {
+    .mobilecol>img {
+        float:left;
+        postion: relative;
+
+    }
+}
+.mobilecol>img {
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      float:none;
+}
+
+
 .col-1,
 .col-2,
 .col-3,
@@ -2337,7 +2352,7 @@ mark.wobble {
     flex: 0 0 80%;
     max-width: 80%;
 	font-family: 'Mate', serif;
-    font-size: 1.2em;
+    font-size: 1.0em;
 }
 
 @media (min-width: 720px) {
@@ -19383,14 +19398,13 @@ select.form-control[multiple] {
 
 .header,
 .post-header {
-    padding-top: 63px
+    padding-top: 83px
 }
 
 @media (min-width: 720px) {
 
     .header,
     .post-header {
-        padding-top: 4.9166666667rem
     }
 }
 
