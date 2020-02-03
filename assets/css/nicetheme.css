@@ -507,9 +507,7 @@ body {
     font-weight: normal;
     word-wrap: break-word;
     overflow-x: hidden;
-    background: url("/assets/images/background_l2.png") repeat center center fixed;
-      -moz-background-size: 100% 100%;
-      background-size: 100% 100%;
+    background: #eee;
 }
 
 .block {
