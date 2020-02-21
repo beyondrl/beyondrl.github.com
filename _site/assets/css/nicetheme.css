@@ -213,12 +213,14 @@ hr {
 }
 
 a {
-    background-color: transparent
+    /*background-color: transparent*/
+    text-decoration: underline;
 }
 
 a:active,
 a:hover {
     outline: 0
+    color: red;
 }
 
 img {
@@ -507,9 +509,7 @@ body {
     font-weight: normal;
     word-wrap: break-word;
     overflow-x: hidden;
-    background: url("/assets/images/background_l2.png") repeat center center fixed;
-      -moz-background-size: 100% 100%;
-      background-size: 100% 100%;
+    background: #eee;
 }
 
 .block {
@@ -1232,8 +1232,8 @@ pre code {
 }
 
 a {
-    text-decoration: none;
-    color: inherit
+    text-decoration: underline;
+    /*color: inherit*/
 }
 
 .content a:not(.no-style) {
@@ -1258,6 +1258,18 @@ a {
     background-repeat: repeat-x;
     background-size: 1px 1px;
     background-position: 0 97%
+}
+
+
+
+.post-card {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fade {
+    text-decoration: none;
+    color: inherit;
 }
 
 .fade:hover {
@@ -2073,6 +2085,21 @@ mark.wobble {
     }
 }
 
+@media (min-width: 720px) {
+    .mobilecol>img {
+        float:left;
+        postion: relative;
+
+    }
+}
+.mobilecol>img {
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      float:none;
+}
+
+
 .col-1,
 .col-2,
 .col-3,
@@ -2337,7 +2364,7 @@ mark.wobble {
     flex: 0 0 80%;
     max-width: 80%;
 	font-family: 'Mate', serif;
-    font-size: 1.2em;
+    font-size: 1.0em;
 }
 
 @media (min-width: 720px) {
@@ -19383,14 +19410,13 @@ select.form-control[multiple] {
 
 .header,
 .post-header {
-    padding-top: 63px
+    padding-top: 83px
 }
 
 @media (min-width: 720px) {
 
     .header,
     .post-header {
-        padding-top: 4.9166666667rem
     }
 }
 
