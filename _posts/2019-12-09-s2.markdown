@@ -6,13 +6,8 @@ cover: "/assets/images/Go-board-animated.gif"
 categories: jekyll update
 summary: "Take an AI that learns to play Go and other board games better than any human using only self-play, now make it work for ATARI games. That is exactly what the authors of MuZero have achieved, and in doing so they beat the state-of-the-art on many of the ATARI games. We covered their algorithm in more detail and compare it to AlphaZero."
 ---
-<div class="container">
-    
-  <hr>
-<div class="container mb-1.5">
-  <hr class="js-nav-fold">
+<div class="container mb-0.5 block shadowed">
   <h1 class="mt-1.5">{{page.title}}</h1>
-</div>
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRmPm2Oxri_Vmoa0oouqvwASF9MPyCucUsTVtO2Hc2j0tz9sBsla1m8AIkpr28EmNmD441WZ46waMLz/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 

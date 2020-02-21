@@ -1,22 +1,16 @@
 ---
 layout: default
 title:  "Contrastive Learning of Structured World Models"
-date:   2020-01-26
-tba:	true
+date:   2020-02-13
 cover: "/assets/images/structured_world_models.png"
 categories: jekyll update
 summary: "This recent paper by Thomas Kipf, Elise van der Pol and Max Welling highlights different cognitive architectures 'how to see' in the Reinforcement Learning setting. Their proposed C-SWM model is composed of a CNN-based objectextractor, an MLP-based object encoder, a GNN-based relational transition model, and an object-factorized contrastive loss."
 ---
-<div class="container">
-    
-  <hr>
-<div class="container mb-1.5">
-  <hr class="js-nav-fold">
+<div class="container mb-0.5 block shadowed">
   <h1 class="mt-1.5">{{page.title}}</h1>
-</div>
 
 {% highlight Ruby %}
-Attend the session if you are interested 😉.
+Slides coming soon.
 
 {% endhighlight %}
 <br>

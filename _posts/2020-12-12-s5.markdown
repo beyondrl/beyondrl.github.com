@@ -1,0 +1,36 @@
+---
+layout: default
+title:  "Curiosity-driven Exploration by Self-supervised Prediction"
+date:   2020-12-12
+tba:	true
+cover: "/assets/images/s5.png"
+categories: jekyll update
+summary: "The extrinsic rewards to the agent are extremely sparse. The authors of this paper turn to curiosity as instrisic reward signal and introduce the Intrinsic Curiosity Module (ICM)."
+---
+
+<div class="container mb-0.5 block shadowed">
+  <h1 class="mt-1.5">{{page.title}}</h1>
+
+{% highlight Ruby %}
+Our session is usually around 18:00 in B1.19{A|B|C}
+Attend the session if you are interested 😉.
+
+{% endhighlight %}
+  <h2 class="mt-1.5">Abstract</h2>
+
+        In many real-world scenarios, rewards extrinsic to the agent are extremely sparse, or absent altogether. In such cases, curiosity can serve as an intrinsic reward signal to enable the agent to explore its environment and learn skills that might be useful later in its life. We formulate curiosity as the error in an agent's ability to predict the consequence of its own actions in a visual feature space learned by a self-supervised inverse dynamics model. Our formulation scales to high-dimensional continuous state spaces like images, bypasses the difficulties of directly predicting pixels, and, critically, ignores the aspects of the environment that cannot affect the agent. The proposed approach is evaluated in two environments: <i>VizDoom</i> and <i>Super Mario Bros</i>. Three broad settings are investigated: 1) sparse extrinsic reward, where curiosity allows for far fewer interactions with the environment to reach the goal; 2) exploration with no extrinsic reward, where curiosity pushes the agent to explore more efficiently; and 3) generalization to unseen scenarios (e.g. new levels of the same game) where the knowledge gained from earlier experience helps the agent explore new places much faster than starting from scratch.
+
+  <h2 class="mt-1.5">Authors</h2>
+		<a href="https://people.eecs.berkeley.edu/~pathak/" target="_blank">Deepak Pathak</a>,
+		<a href="https://people.eecs.berkeley.edu/~pulkitag/" target="_blank">Pulkit Agrawal</a>,
+		<a href="https://people.eecs.berkeley.edu/~efros/" target="_blank">Alexei A. Efros</a>,
+		<a href="https://people.eecs.berkeley.edu/~trevor/" target="_blank">Trevor Darrell</a><br>
+	University of California, Berkeley
+
+  	<h2 class="mt-1.5">Video</h2>
+
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/J3FHOyhUn3A" frameborder="0" allowfullscreen=""></iframe>
+        <a href="https://pathak22.github.io/noreward-rl/">Also checkout their website & source code!</a>
+
+
+</div>
