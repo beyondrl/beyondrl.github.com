@@ -23,7 +23,7 @@
         </header>
         {{ content }}
     </main>
-    <footer>
+    <footer {% if page.title == 'Beyond RL' %}class="home"{% endif %}>
         {% include footer.html %}
     </footer>
 </body>
