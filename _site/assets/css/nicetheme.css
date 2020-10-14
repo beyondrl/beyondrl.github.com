@@ -269,6 +269,7 @@ button:-moz-focusring,
     outline: 1px dotted ButtonText
 }
 
+
 legend {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -19829,6 +19830,15 @@ body:not(.is-mobile-nav-closing):not(.is-mobile-nav-open) .mobile-nav {
     background-color: transparent;
     padding-top: 2px;
     padding-bottom: 0
+}
+
+
+footer.home {
+    background-image: url('../images/sp3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 120px;
+    background-position: center;
 }
 
 .subscribe-form--large .subscribe-email {
