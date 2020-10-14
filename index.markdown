@@ -7,7 +7,7 @@ title: Beyond RL
 <div class="container">
     <div class="block mb-0.5 shadowed">
         <h1 class="bt-1.5">Our Meetups</h1>
-        <p>We meet to explore novel topics in (and related to) Reinforement Learning, feel free to check out our slides. This is brand new 🔥 be kind.</p>
+        <p>We meet to explore cutting-edge Reinforement Learning papers and summarize topics in the RL literature, feel free to check out our slides. If you want to get notified of our next session, please fill in your email here: <a href="https://forms.gle/XGdk9P1dDhmLFJsX9">[Notify Me]</a></p>
     </div>
     {% assign posts = site.posts %}
     {%- if posts.size > 0 -%}

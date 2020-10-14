@@ -11,11 +11,15 @@ summary: "Review of recent approaches to memory in the Reinforcement Learning se
 <div class="container mb-0.5 block shadowed">
   <h1 class="mt-1.5">{{page.title}}</h1>
 
-{% highlight Ruby %}
-Our session is usually around 18:00 in B1.19{A|B|C}
-Attend the session if you are interested 😉.
+<!-- Our session is usually around 18:00 in B1.19{A|B|C} -->
 
-{% endhighlight %}
+This session will be online, we are going to familiarise ourselves with neural architectures that use episodic memory, we have slides to make it more intuitive and we'll try to build it up from there. Everyone is welcome and prereading is not needed, but you may check out at the references if you are interested in the topic.
 
+To get notified of the date subscribe <a href="https://forms.gle/XGdk9P1dDhmLFJsX9">here</a>. Hope to see you there 😉.
+<br>
+<br>
+
+<h2>References</h2>
+{% bibliography --file s6references %}
 
 </div>
