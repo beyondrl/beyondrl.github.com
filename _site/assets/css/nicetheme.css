@@ -269,6 +269,7 @@ button:-moz-focusring,
     outline: 1px dotted ButtonText
 }
 
+
 legend {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -515,7 +516,7 @@ body {
 .block {
     background: rgba(255,255,255,0.8);
     padding: 10px;
-    margin-top:8px;
+    /*margin-top:8px;*/
 }
 
 .block:hover{
@@ -734,6 +735,10 @@ body {
     content: "🐦"
 }
 
+.nav-item a.select {
+  color: #38f;
+}
+
 h1,
 h2,
 h3,
@@ -762,7 +767,7 @@ h1,
 
     h1,
     .h1 {
-        font-size: 2.25em
+        font-size: 1.8em
     }
 }
 
@@ -8217,7 +8222,7 @@ select.form-control[multiple] {
 
 .mb-0\.5,
 .my-0\.5 {
-    margin-bottom: .75rem !important
+    /*margin-bottom: .75rem !important*/
 }
 
 .ml-0\.5,
@@ -8351,7 +8356,7 @@ select.form-control[multiple] {
 
 .mt-1\.5,
 .my-1\.5 {
-    margin-top: 2.25rem !important
+    /*margin-top: 2.25rem !important*/
 }
 
 .mr-1\.5,
@@ -8361,7 +8366,7 @@ select.form-control[multiple] {
 
 .mb-1\.5,
 .my-1\.5 {
-    margin-bottom: 2.25rem !important
+    /*margin-bottom: 2.25rem !important*/
 }
 
 .ml-1\.5,
@@ -17882,7 +17887,7 @@ select.form-control[multiple] {
 }
 
 .balance-text {
-    font-family: Mate;
+    /*font-family: Mate;*/
     text-wrap: balance
 }
 
@@ -19375,7 +19380,6 @@ select.form-control[multiple] {
 .kg-bookmark-title {
     font-family: ColfaxAI, Helvetica, sans-serif;
     font-size: 1em;
-    letter-spacing: 0.020833em;
     font-weight: normal;
     font-weight: bold
 }
@@ -19383,7 +19387,6 @@ select.form-control[multiple] {
 .kg-bookmark-description {
     font-family: ColfaxAI, Helvetica, sans-serif;
     font-size: 1em;
-    letter-spacing: 0.020833em;
     font-weight: normal;
     opacity: 0.8
 }
@@ -19829,6 +19832,15 @@ body:not(.is-mobile-nav-closing):not(.is-mobile-nav-open) .mobile-nav {
     background-color: transparent;
     padding-top: 2px;
     padding-bottom: 0
+}
+
+
+footer.home {
+    background-image: url('../images/sp3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 120px;
+    background-position: center;
 }
 
 .subscribe-form--large .subscribe-email {

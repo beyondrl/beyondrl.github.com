@@ -19,7 +19,7 @@
 <body>
     <main>
         <header class="header">
-            <nav class="nav js-nav" style="position: absolute; top: 16.6625px;">
+            <nav class="nav js-nav" style="position: absolute; top: 0px;">
   <div class="container">
     <div class="nav-row row d-flex justify-content-between align-items-center">
       <div class="col-2">
@@ -32,25 +32,25 @@
         <ul class="nav-items d-none d-desktop-flex justify-content-end small-caps">
             
             <li class="nav-item">
-              <a class="fade" href="/2019/11/27/intro.html" >
+              <a class="fade " href="/2019/11/27/intro.html">
                 About
               </a>
             </li>
             
             <li class="nav-item">
-              <a class="fade" href="/" >
+              <a class="fade " href="/">
                 Meetups
               </a>
             </li>
             
             <li class="nav-item">
-              <a class="fade" href="/references.html" >
+              <a class="fade " href="/references.html">
                 References
               </a>
             </li>
             
             <li class="nav-item">
-              <a class="fade" href="/contact.html" >
+              <a class="fade " href="/contact.html">
                 Contact
               </a>
             </li>
@@ -77,25 +77,25 @@
     <ul class="mt-0.25 small-caps">
       
       <li class="nav-item">
-        <a class="fade d-block py-0.75" href="/2019/11/27/intro.html" >
+        <a class="fade d-block py-0.75 " href="/2019/11/27/intro.html">
           About
         </a>
       </li>
       
       <li class="nav-item">
-        <a class="fade d-block py-0.75" href="/" >
+        <a class="fade d-block py-0.75 " href="/">
           Meetups
         </a>
       </li>
       
       <li class="nav-item">
-        <a class="fade d-block py-0.75" href="/references.html" >
+        <a class="fade d-block py-0.75 " href="/references.html">
           References
         </a>
       </li>
       
       <li class="nav-item">
-        <a class="fade d-block py-0.75" href="/contact.html" >
+        <a class="fade d-block py-0.75 " href="/contact.html">
           Contact
         </a>
       </li>
@@ -123,6 +123,7 @@ document.getElementsByClassName("nav-toggle--close")[0].addEventListener('click'
 
 
 </script>
+
         </header>
         <div class="container mb-0.5 block shadowed">
   <h1 class="mt-1.5">The Options framework</h1>
@@ -132,17 +133,39 @@ document.getElementsByClassName("nav-toggle--close")[0].addEventListener('click'
 
 <h2>Summary</h2>
 In Reinforcement Learning, the agent learns to perform some actions in an environment, which is what we call the policy. Instead of having one policy, the agent could instead have a policy over options. Every option contains its own policy and termination function. Suggested by Sutton and others as early as 2000, what is the current state of options?
-
+<br />
+<ul style="overflow: hidden; display: block;">
+    
+    
+    <li style="float:left"><a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.14.2402&amp;rep=rep1&amp;type=pdf">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="30px">
+            <path d="M288 48H136c-22.092 0-40 17.908-40 40v336c0 22.092 17.908 40 40 40h240c22.092 0 40-17.908 40-40V176L288 48zm-16 144V80l112 112H272z"></path>
+        </svg>Read the paper</a></li>
+    
+</ul>
+<br />
 
 <h2>References</h2>
-<ol class="bibliography"><li><span id="peng_mcp_nodate">Peng, X. B., Chang, M., Zhang, G., Abbeel, P., &amp; Levine, S. <i>MCP: Learning Composable Hierarchical Control with Multiplicative Compositional Policies</i>. 21.</span></li>
-<li><span id="stolle_learning_2002">Stolle, M., &amp; Precup, D. (2002). Learning Options in Reinforcement Learning. <i>Lecture Notes in Computer Science</i>, 212–223.</span></li></ol>
+<ol class="bibliography"><li><!-- <span id="peng_mcp_2019">Peng, X. B., Chang, M., Zhang, G., Abbeel, P., &amp; Levine, S. (2019). MCP: Learning Composable Hierarchical Control with Multiplicative Compositional Policies. <i>ArXiv:1905.09808 [Cs, Stat]</i>. http://arxiv.org/abs/1905.09808</span> -->
+
+<li><a href="http://arxiv.org/abs/1905.09808">MCP: Learning Composable Hierarchical Control with Multiplicative Compositional Policies</a> (2019), Peng, Xue Bin and Chang, Michael and Zhang, Grace and Abbeel, Pieter and Levine, Sergey</li>
+
+<!--
+<li><span id="hill_grounded_2020">Hill, F., Tieleman, O., von Glehn, T., Wong, N., Merzic, H., &amp; Clark, S. (2020). Grounded Language Learning Fast and Slow. <i>ArXiv:2009.01719 [Cs]</i>. http://arxiv.org/abs/2009.01719</span></li>-->
+</li>
+<li><!-- <span id="stolle_learning_2002">Stolle, M., &amp; Precup, D. (2002). Learning Options in Reinforcement Learning. <i>Lecture Notes in Computer Science</i>, 212–223.</span> -->
+
+<li><a href="">Learning Options in Reinforcement Learning</a> (2002), Stolle, Martin and Precup, Doina</li>
+
+<!--
+<li><span id="hill_grounded_2020">Hill, F., Tieleman, O., von Glehn, T., Wong, N., Merzic, H., &amp; Clark, S. (2020). Grounded Language Learning Fast and Slow. <i>ArXiv:2009.01719 [Cs]</i>. http://arxiv.org/abs/2009.01719</span></li>-->
+</li></ol>
 
 </div>
 
 
     </main>
-    <footer>
+    <footer >
           <div class="container mt-2.5 pb-0.5 pb-lg-1">
     <hr>
     <nav class="py-0.5 color-fg-50 small-copy">
