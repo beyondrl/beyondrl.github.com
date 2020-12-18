@@ -8,6 +8,7 @@ categories: jekyll update
 summary: "Review of recent approaches to short-term memory in the Reinforcement Learning setting."
 ---
 
+
 <div class="container mb-0.5 block shadowed">
   <h1 class="mt-1.5">{{page.title}}</h1>
 
@@ -18,7 +19,8 @@ This session will be online, we are going to familiarise ourselves with neural a
 To get notified of the date subscribe <a href="https://forms.gle/XGdk9P1dDhmLFJsX9">here</a>. Hope to see you there 😉.
 <br>
 <br>
-
+</div>
+<div class="container mb-0.5 block shadowed">
 <h2>References</h2>
 {% bibliography --file s6references %}
 
