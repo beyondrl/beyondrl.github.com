@@ -1,0 +1,122 @@
+
+@article{graves_neural_2014,
+  title = {Neural {{Turing Machines}}},
+  author = {Graves, Alex and Wayne, Greg and Danihelka, Ivo},
+  year = {2014},
+  month = dec,
+  url = {http://arxiv.org/abs/1410.5401},
+  urldate = {2020-06-02},
+  abstract = {We extend the capabilities of neural networks by coupling them to external memory resources, which they can interact with by attentional processes. The combined system is analogous to a Turing Machine or Von Neumann architecture but is differentiable end-to-end, allowing it to be efficiently trained with gradient descent. Preliminary results demonstrate that Neural Turing Machines can infer simple algorithms such as copying, sorting, and associative recall from input and output examples.},
+  archivePrefix = {arXiv},
+  eprint = {1410.5401},
+  eprinttype = {arxiv},
+  file = {/home/tijs/Zotero/storage/XHFA29TM/Graves et al_2014_Neural Turing Machines.pdf;/home/tijs/Zotero/storage/9SQNHVHE/1410.html},
+  journal = {arXiv:1410.5401 [cs]},
+  keywords = {Computer Science - Neural and Evolutionary Computing},
+  primaryClass = {cs}
+}
+
+@article{wayne_scaling_2016,
+  title = {Scaling {{Memory}}-{{Augmented Neural Networks}} with {{Sparse Reads}} and {{Writes}}},
+  author = {Wayne, Greg and Rae, Jack W. and Hunt, Jonathan J. and Harley, Tim and Danihelka, Ivo and Senior, Andrew and Graves, Alex and Lillicrap, Timothy P.},
+  year = {2016},
+  month = oct,
+  url = {http://arxiv.org/abs/1610.09027},
+  urldate = {2020-12-17},
+  abstract = {Neural networks augmented with external memory have the ability to learn algorithmic solutions to complex tasks. These models appear promising for applications such as language modeling and machine translation. However, they scale poorly in both space and time as the amount of memory grows --- limiting their applicability to real-world domains. Here, we present an end-to-end differentiable memory access scheme, which we call Sparse Access Memory (SAM), that retains the representational power of the original approaches whilst training efficiently with very large memories. We show that SAM achieves asymptotic lower bounds in space and time complexity, and find that an implementation runs \$1,\textbackslash!000\textbackslash times\$ faster and with \$3,\textbackslash!000\textbackslash times\$ less physical memory than non-sparse models. SAM learns with comparable data efficiency to existing models on a range of synthetic tasks and one-shot Omniglot character recognition, and can scale to tasks requiring \$100,\textbackslash!000\$s of time steps and memories. As well, we show how our approach can be adapted for models that maintain temporal associations between memories, as with the recently introduced Differentiable Neural Computer.},
+  archivePrefix = {arXiv},
+  eprint = {1610.09027},
+  eprinttype = {arxiv},
+  file = {/home/tijs/Zotero/storage/E4E9CZZS/Rae et al_2016_Scaling Memory-Augmented Neural Networks with Sparse Reads and Writes.pdf;/home/tijs/Zotero/storage/L8X7TMIA/1610.html},
+  journal = {arXiv:1610.09027 [cs]},
+  keywords = {Computer Science - Machine Learning},
+  primaryClass = {cs}
+}
+
+
+
+
+@article{pritzel_neural_2017,
+  title = {Neural {{Episodic Control}}},
+  author = {Pritzel, Alexander and Uria, Benigno and Srinivasan, Sriram and Puigdom{\`e}nech, Adri{\`a} and Vinyals, Oriol and Hassabis, Demis and Wierstra, Daan and Blundell, Charles},
+  year = {2017},
+  month = mar,
+  url = {http://arxiv.org/abs/1703.01988},
+  urldate = {2020-04-01},
+  abstract = {Deep reinforcement learning methods attain super-human performance in a wide range of environments. Such methods are grossly inefficient, often taking orders of magnitudes more data than humans to achieve reasonable performance. We propose Neural Episodic Control: a deep reinforcement learning agent that is able to rapidly assimilate new experiences and act upon them. Our agent uses a semi-tabular representation of the value function: a buffer of past experience containing slowly changing state representations and rapidly updated estimates of the value function. We show across a wide range of environments that our agent learns significantly faster than other state-of-the-art, general purpose deep reinforcement learning agents.},
+  archivePrefix = {arXiv},
+  eprint = {1703.01988},
+  eprinttype = {arxiv},
+  file = {/home/tijs/Zotero/storage/4XK53JRP/Pritzel et al. - 2017 - Neural Episodic Control.pdf;/home/tijs/Zotero/storage/4KWPFRU2/1703.html},
+  journal = {arXiv:1703.01988 [cs, stat]},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  primaryClass = {cs, stat}
+}
+
+@article{santoro_relational_2018,
+  title = {Relational Recurrent Neural Networks},
+  author = {Santoro, Adam and Faulkner, Ryan and Raposo, David and Rae, Jack and Chrzanowski, Mike and Weber, Theophane and Wierstra, Daan and Vinyals, Oriol and Pascanu, Razvan and Lillicrap, Timothy},
+  year = {2018},
+  month = jun,
+  url = {http://arxiv.org/abs/1806.01822},
+  urldate = {2020-04-01},
+  abstract = {Memory-based neural networks model temporal data by leveraging an ability to remember information for long periods. It is unclear, however, whether they also have an ability to perform complex relational reasoning with the information they remember. Here, we first confirm our intuitions that standard memory architectures may struggle at tasks that heavily involve an understanding of the ways in which entities are connected -- i.e., tasks involving relational reasoning. We then improve upon these deficits by using a new memory module -- a \textbackslash textit\{Relational Memory Core\} (RMC) -- which employs multi-head dot product attention to allow memories to interact. Finally, we test the RMC on a suite of tasks that may profit from more capable relational reasoning across sequential information, and show large gains in RL domains (e.g. Mini PacMan), program evaluation, and language modeling, achieving state-of-the-art results on the WikiText-103, Project Gutenberg, and GigaWord datasets.},
+  archivePrefix = {arXiv},
+  eprint = {1806.01822},
+  eprinttype = {arxiv},
+  file = {/home/tijs/Zotero/storage/DX5EATRP/Santoro et al. - 2018 - Relational recurrent neural networks.pdf;/home/tijs/Zotero/storage/5JRPTH7L/1806.html},
+  journal = {arXiv:1806.01822 [cs, stat]},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  primaryClass = {cs, stat}
+}
+
+@article{savinov_episodic_2019,
+  title = {Episodic {{Curiosity}} through {{Reachability}}},
+  author = {Savinov, Nikolay and Raichuk, Anton and Marinier, Rapha{\"e}l and Vincent, Damien and Pollefeys, Marc and Lillicrap, Timothy and Gelly, Sylvain},
+  year = {2019},
+  month = aug,
+  url = {http://arxiv.org/abs/1810.02274},
+  urldate = {2020-12-17},
+  abstract = {Rewards are sparse in the real world and most of today's reinforcement learning algorithms struggle with such sparsity. One solution to this problem is to allow the agent to create rewards for itself - thus making rewards dense and more suitable for learning. In particular, inspired by curious behaviour in animals, observing something novel could be rewarded with a bonus. Such bonus is summed up with the real task reward - making it possible for RL algorithms to learn from the combined reward. We propose a new curiosity method which uses episodic memory to form the novelty bonus. To determine the bonus, the current observation is compared with the observations in memory. Crucially, the comparison is done based on how many environment steps it takes to reach the current observation from those in memory - which incorporates rich information about environment dynamics. This allows us to overcome the known "couch-potato" issues of prior work - when the agent finds a way to instantly gratify itself by exploiting actions which lead to hardly predictable consequences. We test our approach in visually rich 3D environments in ViZDoom, DMLab and MuJoCo. In navigational tasks from ViZDoom and DMLab, our agent outperforms the state-of-the-art curiosity method ICM. In MuJoCo, an ant equipped with our curiosity module learns locomotion out of the first-person-view curiosity only.},
+  archivePrefix = {arXiv},
+  eprint = {1810.02274},
+  eprinttype = {arxiv},
+  file = {/home/tijs/Zotero/storage/EXHDBJRT/Savinov et al_2019_Episodic Curiosity through Reachability.pdf;/home/tijs/Zotero/storage/6JJMUYXZ/1810.html},
+  journal = {arXiv:1810.02274 [cs, stat]},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Computer Science - Robotics,Statistics - Machine Learning},
+  primaryClass = {cs, stat}
+}
+
+@article{le_selfattentive_2020,
+  title = {Self-{{Attentive Associative Memory}}},
+  author = {Le, Hung and Tran, Truyen and Venkatesh, Svetha},
+  year = {2020},
+  month = feb,
+  url = {http://arxiv.org/abs/2002.03519},
+  urldate = {2020-04-01},
+  abstract = {Heretofore, neural networks with external memory are restricted to single memory with lossy representations of memory interactions. A rich representation of relationships between memory pieces urges a high-order and segregated relational memory. In this paper, we propose to separate the storage of individual experiences (item memory) and their occurring relationships (relational memory). The idea is implemented through a novel Self-attentive Associative Memory (SAM) operator. Found upon outer product, SAM forms a set of associative memories that represent the hypothetical high-order relationships between arbitrary pairs of memory elements, through which a relational memory is constructed from an item memory. The two memories are wired into a single sequential model capable of both memorization and relational reasoning. We achieve competitive results with our proposed two-memory model in a diversity of machine learning tasks, from challenging synthetic problems to practical testbeds such as geometry, graph, reinforcement learning, and question answering.},
+  archivePrefix = {arXiv},
+  eprint = {2002.03519},
+  eprinttype = {arxiv},
+  file = {/home/tijs/Zotero/storage/Q9QT675J/Le et al. - 2020 - Self-Attentive Associative Memory.pdf;/home/tijs/Zotero/storage/3K4VWFLQ/2002.html},
+  journal = {arXiv:2002.03519 [cs, stat]},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  primaryClass = {cs, stat}
+}
+
+@article{hill_grounded_2020,
+  title = {Grounded {{Language Learning Fast}} and {{Slow}}},
+  author = {Hill, Felix and Tieleman, Olivier and {von Glehn}, Tamara and Wong, Nathaniel and Merzic, Hamza and Clark, Stephen},
+  year = {2020},
+  month = oct,
+  url = {http://arxiv.org/abs/2009.01719},
+  urldate = {2020-12-17},
+  abstract = {Recent work has shown that large text-based neural language models, trained with conventional supervised learning objectives, acquire a surprising propensity for few- and one-shot learning. Here, we show that an embodied agent situated in a simulated 3D world, and endowed with a novel dual-coding external memory, can exhibit similar one-shot word learning when trained with conventional reinforcement learning algorithms. After a single introduction to a novel object via continuous visual perception and a language prompt ("This is a dax"), the agent can re-identify the object and manipulate it as instructed ("Put the dax on the bed"). In doing so, it seamlessly integrates short-term, within-episode knowledge of the appropriate referent for the word "dax" with long-term lexical and motor knowledge acquired across episodes (i.e. "bed" and "putting"). We find that, under certain training conditions and with a particular memory writing mechanism, the agent's one-shot word-object binding generalizes to novel exemplars within the same ShapeNet category, and is effective in settings with unfamiliar numbers of objects. We further show how dual-coding memory can be exploited as a signal for intrinsic motivation, stimulating the agent to seek names for objects that may be useful for later executing instructions. Together, the results demonstrate that deep neural networks can exploit meta-learning, episodic memory and an explicitly multi-modal environment to account for 'fast-mapping', a fundamental pillar of human cognitive development and a potentially transformative capacity for agents that interact with human users.},
+  archivePrefix = {arXiv},
+  eprint = {2009.01719},
+  eprinttype = {arxiv},
+  file = {/home/tijs/Zotero/storage/FKUELZ3P/Hill et al_2020_Grounded Language Learning Fast and Slow.pdf;/home/tijs/Zotero/storage/866QB48L/2009.html},
+  journal = {arXiv:2009.01719 [cs]},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language},
+  primaryClass = {cs}
+}

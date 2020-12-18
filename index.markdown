@@ -6,8 +6,8 @@ title: Beyond RL
 ---
 <div class="container">
     <div class="block mb-0.5 shadowed">
-        <h1 class="bt-1.5">Our Meetups</h1>
-        <p>We meet to explore novel topics in (and related to) Reinforement Learning, feel free to check out our slides. This is brand new 🔥 be kind.</p>
+        <h1 class="bt-1.5">Topics Covered</h1>
+        <p>We are a reading group that explores the cutting-edge of Reinforement Learning and we summarize topics in RL literature, feel free to check out our slides. You are invited to join next sessions: <a href="https://forms.gle/XGdk9P1dDhmLFJsX9">[Notify Me]</a>, no prep needed except for RL fundamentals. </p>
     </div>
     {% assign posts = site.posts %}
     {%- if posts.size > 0 -%}
@@ -17,11 +17,7 @@ title: Beyond RL
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     {%- for post in posts -%}
     <div class="block mb-0.5 shadowed" {% if post.tba %} style="background:gold" {% endif %}>
-    <a href="{{ post.url | relative_url }}" class="
-      post-card d-block
-      
-      py-2/3
-          ">
+    <a href="{{ post.url | relative_url }}" class="post-card d-block py-2/3">
         <div class="row">
             <div class="col-9 col-sm-4 col-md-3 col-xl-2">
                   <img src="{{ post.cover }}" width="128px" style="margin-left:20px">
@@ -52,13 +48,13 @@ title: Beyond RL
                                     {% endif %}
                                 </ul>
                             </div>
-                            <div class="post-card-fade xsmall-caps color-fg-40 mt-0.25">
+                            <div class="post-card-fade">
                                 <div class="d-block d-lg-none"><time datetime="{{ post.date }}" {% if post.tba %}style="visibility: hidden;"{% endif %} >{{ post.date | date: date_format }}</time>{% if post.tba %}TBA<mark></mark>{% endif %}<br></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-3 col-xl-3 text-left text-lg-right d-none d-lg-block">
-                        <time class="post-card-fade xsmall-caps d-block color-fg-40 mt-0.125" {% if post.tba %}style="visibility: hidden;"{% endif %} >{{ post.date | date: date_format }}</time>{% if post.tba %}TBA<mark></mark>{% endif %}
+                        <time class="post-card-fade d-block" {% if post.tba %}style="visibility: hidden;"{% endif %} >{{ post.date | date: date_format }}</time>{% if post.tba %}TBA<mark></mark>{% endif %}
                     </div>
                 </div>
             </div>

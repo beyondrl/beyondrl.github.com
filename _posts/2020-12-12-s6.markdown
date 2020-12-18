@@ -5,7 +5,7 @@ date:   2020-12-12
 tba:	true
 cover: "/assets/images/s6.png"
 categories: jekyll update
-summary: "Review of recent approaches to memory in the Reinforcement Learning setting."
+summary: "Review of recent approaches to short-term memory in the Reinforcement Learning setting."
 ---
 
 <div class="container mb-0.5 block shadowed">
@@ -16,6 +16,11 @@ Our session is usually around 18:00 in B1.19{A|B|C}
 Attend the session if you are interested 😉.
 
 {% endhighlight %}
+
+
+
+<h2>References</h2>
+{% bibliography --file s6references %}
 
 
 </div>

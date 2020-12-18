@@ -1,4 +1,4 @@
-<nav class="nav js-nav" style="position: absolute; top: 16.6625px;">
+<nav class="nav js-nav" style="position: absolute; top: 0px;">
   <div class="container">
     <div class="nav-row row d-flex justify-content-between align-items-center">
       <div class="col-2">
@@ -11,7 +11,7 @@
         <ul class="nav-items d-none d-desktop-flex justify-content-end small-caps">
             {% for item in site.data.navigation %}
             <li class="nav-item">
-              <a class="fade" href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+              <a class="fade {% if page.url == item.link %} select{% endif %}" href="{{ item.link }}">
                 {{ item.name }}
               </a>
             </li>
@@ -38,7 +38,7 @@
     <ul class="mt-0.25 small-caps">
       {% for item in site.data.navigation %}
       <li class="nav-item">
-        <a class="fade d-block py-0.75" href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+        <a class="fade d-block py-0.75 {% if page.url == item.link %}select{% endif %}" href="{{ item.link }}">
           {{ item.name }}
         </a>
       </li>
